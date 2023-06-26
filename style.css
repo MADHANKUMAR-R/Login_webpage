@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: whitesmoke;
+}
+.form h2 {
+  margin-top: 10px;
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+.form a {
+  padding-right: 40px;
+  text-align: right;
+  text-decoration: none;
+  color: blue;
+}
+.form p {
+  align-items: center;
+  text-align: center;
+}
+.inputbox {
+  position: relative;
+  width: 80%;
+  height: 50px;
+  border-bottom: 2px solid black;
+  margin: 30px;
+}
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  pointer-events: none;
+  transition: top 0.3s, font-size 0.3s;
+}
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label {
+  top: -5px;
+}
+.inputbox input {
+  width: 80%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.inputbox .mail1 {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: black;
+  line-height: 57px;
+}
+.remember-forgot {
+  font-size: 0.9em;
+  color: black;
+  font-weight: 500;
+  margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+.remember-forgot label input {
+  accent-color: rgb(97, 96, 96);
+  margin-right: 3px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon a {
+  font-size: 20px;
+  padding-top: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+.icon ion-icon {
+  padding: 10px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.icon ion-icon:hover {
+  transition: translate(0, -10px);
+  color: black;
+}
+/*label {
+  font-size: 20px;
+  opacity: 0.8;
+  color: blue;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.box {
+  width: 80%;
+  margin: 5% auto;
+  margin-bottom: 8%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid blue;
+  opacity: 0.8;
+}*/
+.button {
+  width: 50%;
+  height: 8%;
+  margin: 5% auto;
+  border-radius: 20px;
+  padding: 10px, 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.side img {
+  width: 400px;
+  height: 500px;
+}
