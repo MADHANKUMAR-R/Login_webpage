@@ -1,6 +1,4 @@
 
-https://github.com/MADHANKUMAR-R/Login_webpage/assets/122138979/90ba3cff-b08e-4369-b593-d512531ef2b8
-
 # Login_webpage
 This project showcases a responsive login page built using HTML and CSS. The login page offers a simple and intuitive interface for user authentication. It features a clean design with carefully crafted CSS styles to ensure a visually appealing experience.
 ## Key Features
@@ -17,5 +15,7 @@ This project showcases a responsive login page built using HTML and CSS. The log
 - Integrate the login page into your project by incorporating the necessary backend functionality for user authentication.
 ## links
 ### live demo
-
+https://github.com/MADHANKUMAR-R/Login_webpage/assets/122138979/90ba3cff-b08e-4369-b593-d512531ef2b8
+###contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please submit them through the issue tracker or by creating a pull request. Refer to the contribution guidelines in the repository for more information.
 
